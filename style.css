@@ -1,0 +1,85 @@
+body {
+    background-color: #f3f4f4;
+}
+
+/*----------------------------------------------*/
+
+.login {
+    position: fixed;
+    top: 35%;
+    left: 20%;
+    height: 250px;
+    width: 19%;
+    background-color: #f65151;
+    border-radius: 2%;
+}
+
+/*----------------------------------------------*/
+
+#usuario {
+    position: fixed;
+    left: 21%;
+    top: 26%;
+    margin: 5%;
+    /*---*/
+    font-family: impact;
+    font-size: 250%;
+    color: #2e2828;
+    text-align: center;
+}
+
+#nome {
+    margin: 5%;
+    position: fixed;
+    left: 16.3%;
+    top: 31%;
+    background-color: #f3f4f4;
+    height: 4%;
+    width: 16%;
+    border-color: #f65151;;
+    border-radius: 2%;
+    /*---*/
+    font-family: impact;
+    font-size: 180%;
+    color: #2e2828;
+}
+
+/*----------------------------------------------*/
+
+#pass {
+    position: fixed;
+    left: 21.5%;
+    top: 36%;
+    margin: 5%;
+    /*---*/
+    font-family: impact;
+    font-size: 250%;
+    color: #2e2828;
+    text-align: center;
+}
+
+#senha {
+    margin: 5%;
+    position: fixed;
+    left: 16.3%;
+    top: 41%;
+    background-color: #f3f4f4;
+    height: 4%;
+    width: 16%;
+    border-color: #f65151;
+    /*---*/
+    font-family: impact;
+    font-size: 180%;
+    color: #2e2828;
+}
+
+/*----------------------------------------------*/
+
+.cad {
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+    top: 0%;
+    background-color: #503a3a;
+}
