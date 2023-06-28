@@ -16,6 +16,20 @@ body {
 
 /*----------------------------------------------*/
 
+.circulo {
+    position: fixed;
+    top: 11%;
+    left: 19%;
+    height: 50px;
+    width: 200px;
+    transform: rotate(-20deg);
+    background-color: #f65151;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/*----------------------------------------------*/
+
 .login {
     position: fixed;
     top: 35%;
@@ -93,8 +107,8 @@ body {
     position: fixed;
     height: 4%;
     width: 7%;
-    top: 47%;
-    left: 20.5%;
+    top: 47.5%;
+    left: 15.5%;
     border-radius: 5px;
     background-color: #f65151;
     border-color: #f73f3f;
@@ -109,12 +123,12 @@ body {
 #esqueci {
     margin: 5%;
     position: fixed;
-    top: 48%;
-    left: 11.5%;
+    top: 55%;
+    left: 15%;
     /*---*/
     font-family: 'Trebuchet MS';
     font-size: 100%;
-    color: #f3f4f4;
+    color: #2e2828;
 }
 
 /*----------------------------------------------*/
@@ -143,3 +157,9 @@ body {
 }
 
 /*----------------------------------------------*/
+
+#rodape {
+    position: fixed;
+    bottom: -1%;
+    left: 0.5%;
+}
