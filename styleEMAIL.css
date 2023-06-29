@@ -37,7 +37,6 @@ body {
     height: 160px;
     width: 19%;
     background-color:  #f65151;
-    z-index: -1;
     border-radius: 50px 0;
     transition: all transform 1s;
     transform-origin: top;
@@ -113,6 +112,17 @@ body {
 
 /*----------------------------------------------*/
 
+#txtEMAIL {
+    margin-top: -11.5%;
+    margin-left: 11%;
+    /*---*/
+    font-family: 'Trebuchet MS';
+    font-size: 150%;
+    color: #2e2828;
+}
+
+/*----------------------------------------------*/
+
 .cad {
     position: fixed;
     height: 120%;
@@ -155,7 +165,6 @@ body {
 .invisivel {
     animation: aparecer 1s ease-in-out 0s forwards;
 }
-
 
 /*----------------------------------------------*/
 

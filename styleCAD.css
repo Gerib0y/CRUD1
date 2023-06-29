@@ -1,0 +1,99 @@
+body {
+    background-color: #f3f4f4;
+}
+
+/*----------------------------------------------*/
+
+.titulo {
+    position: fixed;
+    top: 3%;
+    left: 16%;
+    /*---*/
+    font-family: 'Trebuchet MS';
+    font-size: 500%;
+    color: #2e2828;
+}
+
+/*----------------------------------------------*/
+
+.circulo {
+    position: fixed;
+    top: 11%;
+    left: 19%;
+    height: 50px;
+    width: 200px;
+    transform: rotate(-20deg);
+    background-color: #f65151;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/*----------------------------------------------*/
+
+.cad {
+    position: fixed;
+    height: 120%;
+    width: 60%;
+    top: -5%;
+    right: -10%;
+    background-color: #503a3a;
+    border-radius: 8%/50%;
+    animation: mover 1.5s linear forwards;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+#cad {
+    margin-top: 40%;
+    margin-right: 10%;
+    font-family: 'Trebuchet MS';
+    font-size: 250%;
+    color: #f3f4f4;
+    text-align: center;
+}
+
+#aqui {
+    color: #f65151;
+}
+
+/*----------------------------------------------*/
+
+.login {
+    position: fixed;
+    top: 35%;
+    left: 15%;
+    height: 280px;
+    width: 19%;
+    background-color: #f65151;
+    border-radius: 50px 0;
+    transition: all transform 1s;
+    transform-origin: top;
+}
+
+#animacao {
+    animation: zoomOut 1s ease-in-out;
+}
+
+  @keyframes zoomOut {
+    0% {
+      transform: scaley(0.7);
+    }
+    100% {
+      transform: scaley(0);
+    }
+}
+
+/*----------------------------------------------*/
+
+#rodape {
+    position: fixed;
+    bottom: -1%;
+    left: 0.5%;
+}
