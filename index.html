@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleINDEX.css">
+    <script src="scriptINDEX.js"></script>
 </head>
 <body>
     <h1 class="titulo">CHADGPT</h1>
     <div class="circulo"></div>
 
-    <div class="login">
-        <label id="usuario" for="nome">Usuário</label>
+    <div class="login" id="animacao">
+        <label id="usuario" for="nome" style="display: none;" class="invisivel">Usuário</label>
 
         <br>
-        <input  type="nome" id="nome" name="nome" class="nome"/>
+        <input  type="nome" id="nome" name="nome" style="display: none;" class="invisivel"/>
 
         <br>
-        <label id="pass" for="senha">Senha</label>
+        <label id="pass" for="senha" style="display: none;" class="invisivel">Senha</label>
 
         <br>
-        <input type="password" id="senha" name="senha">
-        <button id="botENTRAR">ENTRAR</button>
-        <a id="esqueci" href="">Esqueci minha senha</a>
+        <input type="password" id="senha" name="senha" style="display: none;" class="invisivel">
+        <button id="botENTRAR" style="display: none;" class="invisivel">ENTRAR</button>
+        <a id="esqueci" href="email.html" style="display: none;" class="invisivel">Esqueci minha senha</a>
     </div>
 
     <div class="cad">
